@@ -23,13 +23,12 @@ with open(r'/home/nicolas/speedtest/movistar.csv', 'a') as f:
     writer = csv.writer(f)
     writer.writerow(fields)
 
-'''print(fecha)
+'''
+print(fecha)
 print(hora)
 print(ping)
 print(download)
 print(upload)
-
-
+Crontab: 
 0 */2 * * * python3 /home/nicolas/speedtest/logBWtest.py
-
 '''
